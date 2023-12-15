@@ -10,7 +10,7 @@ Original file is located at
 # streamlit_regression_app.py
 import subprocess
 
-!pip install streamlit
+pip install streamlit
 # Import the required libraries after installation
 import streamlit as st
 import pandas as pd
