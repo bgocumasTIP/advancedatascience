@@ -8,8 +8,12 @@ Original file is located at
 """
 
 # streamlit_regression_app.py
-pip install streamlit pandas numpy tensorflow scikit-learn
+import subprocess
 
+# Install necessary packages
+subprocess.run(["pip", "install", "streamlit", "pandas", "numpy", "tensorflow", "scikit-learn"])
+
+# Import the required libraries after installation
 import streamlit as st
 import pandas as pd
 import numpy as np
