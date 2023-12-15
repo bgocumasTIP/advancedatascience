@@ -17,7 +17,7 @@ subprocess.run(["pip", "install", "streamlit", "pandas", "numpy", "tensorflow", 
 import streamlit as st
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+# import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
 
 def load_regression_model():
