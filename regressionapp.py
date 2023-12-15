@@ -12,7 +12,7 @@ import subprocess
 
 # Install necessary packages
 subprocess.run(["pip", "install", "streamlit", "pandas", "numpy", "tensorflow", "scikit-learn"])
-pip install --upgrade tensorflow
+
 # Import the required libraries after installation
 import streamlit as st
 import pandas as pd
