@@ -22,7 +22,7 @@ def my_hash_func(func):
     source_code = inspect.getsource(func)
     return hashlib.md5(source_code.encode()).hexdigest()
 
-@st.cache(allow_output_mutation=True, hash_funcs={types.FunctionType: my_hash_func})
+#@st.cache(allow_output_mutation=True, hash_funcs={types.FunctionType: my_hash_func})
 def load_regression_model():
     # Replace 'regmodel_weights.best.hdf5' with your actual model file
     model = tf.keras.models.load_model('regmodel_weights.best.hdf5')
