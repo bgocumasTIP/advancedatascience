@@ -8,14 +8,14 @@ Original file is located at
 """
 
 import streamlit as st
-import pandas as pd
-import numpy as np
-import tensorflow as tf
-from sklearn.preprocessing import StandardScaler
-import types  # Import the types module
-import types
-import hashlib
-import inspect
+#import pandas as pd
+#import numpy as np
+#import tensorflow as tf
+#from sklearn.preprocessing import StandardScaler
+#import types  # Import the types module
+#import types
+#import hashlib
+#import inspect
 
 def my_hash_func(func):
     # Use the function name and its source code for hashing
