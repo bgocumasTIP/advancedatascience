@@ -1,3 +1,4 @@
+pip install streamlit keras
 import streamlit as st
 import pandas as pd
 from keras.models import load_model
