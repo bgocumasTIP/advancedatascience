@@ -4,7 +4,7 @@ import pandas as pd
 
 # Function to load the HDF5 model
 def load_regression_model(model_path):
-    model = load_model(model_path)
+    model = model_path
     return model
 
 # Function to make predictions
