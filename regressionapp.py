@@ -1,7 +1,6 @@
-!pip install streamlit keras
 import streamlit as st
 import pandas as pd
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 
 # Function to load the HDF5 model
 def load_regression_model(model_path):
